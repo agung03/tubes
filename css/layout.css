@@ -89,7 +89,7 @@ ul#nav li.current a { color: white; }
 #about {
    background: #1F1F1F url(../images/bg1.png) no-repeat center center;
    background-size: cover !important;
-  -webkit-background-size: cover !important;
+   -webkit-background-size: cover !important;
    background-attachment: fixed;
 
    position: relative;
@@ -273,16 +273,15 @@ ul#nav li.current a { color: white; }
 /* ------------------------------------------------------------------ */
 /*pengaturan tulisan,warna,ukuran,posisi dan font pada pemetaan class edukasi*/
 #education {
-    background: #1F1F1F url(../images/Glow.png) no-repeat center center;
-   background-size: cover !important;
-  -webkit-background-size: cover !important;
-   background-attachment: fixed;
-   position: relative;
-   min-height: 200px;
-   width: 100%;
-   overflow: hidden;
-   padding-top: 90px;
-   padding-bottom: 72px;
+    background-image:  url('../images/Glow.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 90px;
+    padding-bottom: 72px;
 }
 
 #education a, #education a:visited  { color: #11ABB0; }
@@ -438,12 +437,11 @@ pengaturan pada ukuran bar ,margin, tulisan dan pengaturan lain nya */
 /* ------------------------------------------------------------------ */
 /*pengaturan halaman pada fort polio*/
 #portfolio {
-    background: #1F1F1F url(../images/bg2.png) no-repeat center center;
+    background: #1F1F1F url('../images/bg2.png') no-repeat center center;
    background-size: cover !important;
   -webkit-background-size: cover !important;
    background-attachment: fixed;
 
-   position: relative;
    min-height: 200px;
    width: 100%;
    overflow: hidden;
@@ -617,12 +615,11 @@ pengaturan pada ukuran bar ,margin, tulisan dan pengaturan lain nya */
 /* ------------------------------------------------------------------ */
 /*css untuk contact*/
 #contact {
-    background: #1F1F1F url(../images/Glow.png) no-repeat center center;
+   background: #1F1F1F url('../images/Glow.png') no-repeat center center;
    background-size: cover !important;
-  -webkit-background-size: cover !important;
+   -webkit-background-size: cover !important;
    background-attachment: fixed;
 
-   position: relative;
    min-height: 200px;
    width: 100%;
    overflow: hidden;
